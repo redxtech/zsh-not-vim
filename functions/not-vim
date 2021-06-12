@@ -3,7 +3,7 @@
 # function to shame the user for forgetting they weren't in vim
 not-vim () {
     # make sure cowsay is installed
-    if [[ -z $commands[cowsay] ]]; then
+    if (( $+commands[cowsay] )); then
         echo "cowsay is not installed"
         return 1
     fi

@@ -45,13 +45,15 @@ For example, to use `yosay` instead, add this line to your `.zshrc`:
 
 ```zsh
 zstyle :plugins:not-vim say yosay
+# to use different cowsay options:
+zstyle :plugins:not-vim say cowsay -f vader
 ```
 
 `zsh-not-vim` will pipe the text into whatever command you specify with this
 options and will print the result to `stdout`.
 
 ## Demo
-[![asciicast](https://asciinema.org/a/VkZ4yj30UPliySj4CH5hJWZI5.svg)](https://asciinema.org/a/VkZ4yj30UPliySj4CH5hJWZI5)
+[![asciicast](https://asciinema.org/a/aFvn7VWVfuNcbccq2b6pfIce5.svg)](https://asciinema.org/a/aFvn7VWVfuNcbccq2b6pfIce5)
 
 ## Author
 **not-vim** © [Gabe Dunn](https://github.com/redxtech), Released under the [MIT](./license.md) License.

@@ -10,12 +10,12 @@ not-vim () {
     # make sure cowsay is installed if there isn't a custom sayer
     if test "$say_program" = "cowsay"; then
       if (( ! $+commands[cowsay] )); then
-          echo "cowsay is not installed"
+          echo "cowsay not installed"
           return 1
       fi
     fi
 
-    # do the thing
-    echo "You're not in vim idiot, you're in your shell!" | "$say_program"
+    # do the thing (split $say_program on space to allow for args)
+    echo "You're not in vim idiot, you're in your shell!" | ${(@s/ /)say_program}
 }
 

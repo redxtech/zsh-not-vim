@@ -33,6 +33,11 @@ This is mainly used by aliasing `:q`, `:w`, and `:x` to `not-vim`, (automatcally
 handled by this plugin) so if you accidentally try to run one of those commands
 in the shell, you will be made aware!
 
+I made this because when I was gettin started with neovim I found myself
+trying to run `:q` or `:x` to close my shell, and I wanted a humourous way
+of reminding myself that I was not in vim. I converted it into a plugin
+in case anyone else had the same experience.
+
 ## Config
 You are able to change the program that `zsh-not-vim` used to shame you for
 forgetting that you aren't in vim (by default it uses `cowsay`).

@@ -29,6 +29,18 @@ plugins=(... zsh-not-vim)
 not-vim
 ```
 
+## Config
+You are able to change the program that `zsh-not-vim` used to shame you for
+forgetting that you aren't in vim (by default it uses `cowsay`).
+For example, to use `yosay` instead, add this line to your `.zshrc`:
+
+```zsh
+zstyle :plugins:not-vim say yosay
+```
+
+`zsh-not-vim` will pipe the text into whatever command you specify with this
+options and will print the result to `stdout`.
+
 ## Author
 **not-vim** © [Gabe Dunn](https://github.com/redxtech), Released under the [MIT](./license.md) License.
 

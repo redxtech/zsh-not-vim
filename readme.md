@@ -41,6 +41,9 @@ zstyle :plugins:not-vim say yosay
 `zsh-not-vim` will pipe the text into whatever command you specify with this
 options and will print the result to `stdout`.
 
+## Demo
+[![asciicast](https://asciinema.org/a/VkZ4yj30UPliySj4CH5hJWZI5.svg)](https://asciinema.org/a/VkZ4yj30UPliySj4CH5hJWZI5)
+
 ## Author
 **not-vim** © [Gabe Dunn](https://github.com/redxtech), Released under the [MIT](./license.md) License.
 

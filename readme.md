@@ -29,6 +29,10 @@ plugins=(... zsh-not-vim)
 not-vim
 ```
 
+This is mainly used by aliasing `:q`, `:w`, and `:x` to `not-vim`, (automatcally
+handled by this plugin) so if you accidentally try to run one of those commands
+in the shell, you will be made aware!
+
 ## Config
 You are able to change the program that `zsh-not-vim` used to shame you for
 forgetting that you aren't in vim (by default it uses `cowsay`).
